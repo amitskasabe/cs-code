@@ -4,6 +4,10 @@ class Marks
 {
 public:
     int marks;
+    Marks()
+    {
+        cout<<" this is a constructor";
+    }
     void printMyMarks()
     {
         cout << marks;
@@ -22,8 +26,12 @@ public:
         cout << color;
     }
 };
+class Mobile
+{
+};
 int main()
 {
+    Marks();
     Pen prajakta;
     prajakta.name = "papersoft";
     prajakta.type = "Ball Pen";
