@@ -4,6 +4,10 @@ class Marks
 {
 public:
     int marks;
+    Marks()
+    {
+        cout<<" this is a constructor";
+    }
     void printMyMarks()
     {
         cout << marks;
@@ -22,23 +26,9 @@ public:
         cout << color << endl;
     }
 };
-class Mobile
-{
-public:
-    string name;
-    string color;
-    string type;
-    int price;
-    void printMobile()
-    {
-        cout << name << endl;
-        cout << color << endl;
-        cout << type << endl;
-        cout << price << endl;
-    }
-} ;
 int main()
 {
+    Marks();
     Pen prajakta;
     prajakta.name = "papersoft";
     prajakta.type = "Ball Pen";
